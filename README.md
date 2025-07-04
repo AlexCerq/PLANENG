@@ -20,8 +20,8 @@ Landing page institucional moderna, responsiva e funcional para a PLANENG.
 ## Customização
 
 <h3>04/07/2025 - Edite links de WhatsApp e e-mail conforme necessário no HTML</h3>
-04/07/2025 - Substitua o logo SVG placeholder pelo logo real se desejar.
-04/07/2025 - Adapte textos e seções de acordo com a necessidade da empresa.
+<h3>04/07/2025 - Substitua o logo SVG placeholder pelo logo real se desejar.</h3>
+<h3>04/07/2025 - Adapte textos e seções de acordo com a necessidade da empresa.</h3>
 
 ## Responsividade
 
