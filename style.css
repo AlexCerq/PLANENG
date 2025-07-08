@@ -21,14 +21,14 @@ html {
 }
 
 th, td {
-  border: 1px solid #ddd;
+  border: 0px solid #ddd;
   padding: 10px;
   text-align: left;
 }
 
 th {
   background-color: #f44336;
-  color: yellow;
+  color: white;
 }
 
 tr:nth-child(even) {
