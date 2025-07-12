@@ -18,7 +18,11 @@ html {
   width: 80%;
   border-collapse: collapse;
   margin-top: 10px;
-}
+  align-items: center;
+  align: center;
+    
+  }
+
 
 th, td {
   border: 1px solid #ddd;
