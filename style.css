@@ -17,7 +17,7 @@ html {
   table {
   width: 80%;
   border-collapse: collapse;
-  margin-top: 10px;
+  margin-top: 1px;
   align-items: center;
   align: center;
     
@@ -26,7 +26,7 @@ html {
 
 th, td {
   border: 1px solid #ddd;
-  padding: 10px;
+  padding: 1px;
   text-align: left;
 }
 
@@ -117,7 +117,7 @@ header {
 }
 
 main {
-  margin-top: 75px;
+  margin-top: 175px;
 }
 
 /* HERO */
