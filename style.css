@@ -15,9 +15,8 @@ html {
   margin-left:auto;
 }
 div {
-  
+   width: 80%;
   background-color:red;
-
   margin-right: auto;
   margin-left:auto;
 }
