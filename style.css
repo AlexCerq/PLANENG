@@ -15,8 +15,7 @@ html {
   margin-left:auto;
 }
 div {
-  height:200px;
-  weight:200px;
+  
   background-color:black;
   display:flex;
   align_items:center;
