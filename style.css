@@ -15,8 +15,8 @@ html {
   margin-left:auto;
 }
 div {
-   width: 80%;
-  background-color:red;
+   width: 90%;
+  background-color:black;
   margin-right: auto;
   margin-left:auto;
 }
@@ -41,7 +41,7 @@ suape {
 
 th, td {
   border: 0px solid #ddd;
-  padding: 1px;
+  padding: 2px;
   text-align: left;
 }
 
