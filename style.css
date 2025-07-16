@@ -69,7 +69,7 @@ body {
 
 header {
   position: fixed;
-  width: 100%;
+  width: 90%;
   top: 0;
   background: var(--primary-bg);
   z-index: 1000;
