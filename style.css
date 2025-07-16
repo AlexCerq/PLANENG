@@ -17,8 +17,7 @@ html {
 div {
   
   background-color:black;
-  display:flex;
-  align_items:center;
+
   margin-right: auto;
   margin-left:auto;
 }
