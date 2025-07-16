@@ -14,7 +14,15 @@ html {
   margin-right: auto;
   margin-left:auto;
 }
-
+div {
+  height:200px
+  weight:200px
+  background-color:black
+  display:flex;
+  align_items:center;
+  margin-right: auto;
+  margin-left:auto;
+}
 suape {
   
   margin-right: auto;
@@ -54,9 +62,8 @@ tr:hover {
 }
 
 
-
 body {
-  margin: 0;
+  margin: 10vh;
   font-family: var(--font-main);
   background: var(--primary-bg);
   color: var(--primary-white);
