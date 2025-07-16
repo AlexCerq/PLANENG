@@ -76,6 +76,8 @@ header {
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
+  margin-right: auto;
+  margin-left:auto;
   padding: 0.7rem 1.5rem;
 }
 
