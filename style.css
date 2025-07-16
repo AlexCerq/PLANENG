@@ -11,6 +11,8 @@
 
 html {
   scroll-behavior: smooth;
+  margin-right: auto;
+  margin-left:auto;
 }
 
 
@@ -62,6 +64,10 @@ header {
   background: var(--primary-bg);
   z-index: 1000;
   box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  margin-right: auto;
+  margin-left:auto;
+  align-items: center;
+  align: center;
 }
 
 .navbar {
