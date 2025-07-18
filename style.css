@@ -28,9 +28,9 @@ suape {
 
 
   table {
-  width: 80%;
+  width: 90%;
   border-collapse: collapse;
-  margin-top: 10px;
+  margin-top: 1px;
   margin-right: auto;
   margin-left:auto;
   align-items: center;
@@ -46,9 +46,9 @@ th, td {
 }
 
 th {
-  background-color: #f44336;
-  color: white;
-}
+  background-color:
+  #f44336;color: black;
+   }
 
 tr:nth-child(even) {
   background-color: #0d0d0d;
