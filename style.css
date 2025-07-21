@@ -30,7 +30,7 @@ suape {
   table {
   width: 90%;
   border-collapse: collapse;
-  margin-top: 1px;
+  margin-top: 0px;
   margin-right: auto;
   margin-left:auto;
   align-items: center;
@@ -54,9 +54,9 @@ tr:nth-child(even) {
   background-color: #0d0d0d;
 }
 
-tr:hover {
+/*tr:hover {
   background-color: #f2f2f2;
-}
+}*/
 
 
 body {
@@ -68,7 +68,7 @@ body {
 }
 
 header {
-  position: fixed;
+  position:fixed;
   width: 90%;
   top: 0;
   background: var(--primary-bg);
