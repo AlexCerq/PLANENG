@@ -131,9 +131,10 @@ header {
   transition: color var(--transition);
   font-size: 1rem;
 }
-.menu li a:hover {
+
+/* .menu li a:hover {
   color: var(--primary-red);
-}
+}*/
 
 main {
   margin-top: 175px;
@@ -171,11 +172,12 @@ main {
   text-decoration: none;
   transition: background var(--transition), box-shadow var(--transition);
   box-shadow: 0 4px 14px rgba(215,38,56,0.10);
-}
+}/*
 .cta-btn:hover {
   background: #b81a2a;
   box-shadow: 0 6px 24px rgba(215,38,56,0.16);
 }
+*/
 
 /* SOBRE */
 #sobre {
@@ -383,9 +385,9 @@ footer a {
   color: var(--primary-red);
   text-decoration: underline;
 }
-footer a:hover {
+/*footer a:hover {
   color: #fff;
-}
+}*/
 
 /* WhatsApp float button */
 .whatsapp-float {
