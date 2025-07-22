@@ -75,6 +75,9 @@ HTML, body {
 
 
 .CONEST {
+  
+  width:100vw
+  height:100vh
   display:grid;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: 20vh 70vh 10vh;
@@ -82,7 +85,6 @@ HTML, body {
   grid-template-areas:"h h"
                       "m a" 
                       "f f" 
-    
 }
 
 header1 {
@@ -93,6 +95,7 @@ header1 {
 main {
  background: blue;
   grid-area: m; 
+  align-content:top;
   
 }
 aside {
