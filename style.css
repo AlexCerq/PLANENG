@@ -77,7 +77,7 @@ HTML, body {
   grid-template-columns: 3,5fr 0,5fr;
   grid-template-rows: 20vh 70vh 10vh;
   align-content: top;
-  justify-content: space-evenly;
+  /*justify-content: space-evenly;*/
   grid-gap:5px;
   grid-template-areas:"h h"
                       "m a" 
