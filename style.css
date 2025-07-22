@@ -93,12 +93,11 @@ header1 {
 main {
  background: blue;
   grid-area: m;
-  align-content: top;
+  align: top;
 }
 aside {
  background: green;
   grid-area: a; 
-  align:top;
 }footer{
  background: red; 
  grid-area: f; 
