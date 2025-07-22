@@ -74,7 +74,7 @@ HTML, body {
   width:100vw;
   height:100vh;
   display:grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 3,5fr 0,5fr;
   grid-template-rows: 20vh 70vh 10vh;
   grid-gap:5px;
   grid-template-areas:"h h"
