@@ -75,7 +75,8 @@ HTML, body {
   height:100vh;
   display:grid;
   grid-template-columns: 3fr 1fr;
-  grid-template-rows: 20vh 70vh 10vh;
+  grid-template-rows: 15vh 70vh 15vh;
+  align:top;
   align-content: top;
   /*justify-content: space-evenly;*/
   grid-gap:2px;
@@ -97,7 +98,7 @@ main {
 aside {
  background: green;
   grid-area: a; 
-  
+  align:top;
 }footer{
  background: red; 
  grid-area: f; 
