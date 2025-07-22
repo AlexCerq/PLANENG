@@ -15,7 +15,7 @@ html {
   margin-left:auto;
 }
 div {
-   width: 90%;
+   width: 100%;
   background-color:black;
   margin-right: auto;
   margin-left:auto;
@@ -33,8 +33,8 @@ suape {
   margin-top: 0px;
   margin-right: auto;
   margin-left:auto;
-  align-items: center;
-  align: center;
+  align-items: top;
+  align: top;
     
   }
 
