@@ -91,8 +91,6 @@ header1 {
 main {
  background: blue;
   grid-area: m; 
-
-  
 }
 aside {
  background: green;
@@ -102,9 +100,6 @@ aside {
  background: red; 
  grid-area: f; 
 }
-
-
-
 
 
 
@@ -118,7 +113,6 @@ header {
   margin-right: auto;
   margin-left:auto;
   align-items: center;
-  align: center;
 }
 
 .navbar {
