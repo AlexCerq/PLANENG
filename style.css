@@ -87,7 +87,7 @@ HTML, body {
 
 header1 {
  background:yellow;
- grid-area: f; 
+ grid-area: h; 
   
 }
 main {
@@ -101,7 +101,7 @@ aside {
   
 }footer{
  background: red; 
- grid-area: h; 
+ grid-area: f; 
 }
 
 
