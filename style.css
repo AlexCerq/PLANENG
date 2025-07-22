@@ -46,8 +46,7 @@ th, td {
 }
 
 th {
-  background-color:
-  #f44336;color: black;
+  background-color:#f44336;
    }
 
 tr:nth-child(even) {
@@ -72,8 +71,8 @@ HTML, body {
 
 .CONEST {
   
-  width:100vw
-  height:100vh
+  width:100vw;
+  height:100vh;
   display:grid;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: 20vh 70vh 10vh;
