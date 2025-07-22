@@ -64,15 +64,11 @@ HTML, body {
   margin:0;
   paddding:0;
   box-sizing:border-box;
-
   font-family: var(--font-main);
   background: var(--primary-bg);
   color: var(--primary-white);
   min-height: 100vh;
 }
-
-
-
 
 .CONEST {
   
@@ -95,7 +91,7 @@ header1 {
 main {
  background: blue;
   grid-area: m; 
-  align-content:top;
+
   
 }
 aside {
