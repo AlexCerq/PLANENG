@@ -92,8 +92,8 @@ header1 {
 main {
  background: blue;
   grid-area: m;
-  align:center;
-  height: 100%;
+  align:top;
+
 }
 
 aside {
