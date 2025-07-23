@@ -92,8 +92,10 @@ header1 {
 main {
  background: blue;
   grid-area: m;
+  align:center;
   height: 100%;
 }
+
 aside {
  background: green;
   grid-area: a; 
