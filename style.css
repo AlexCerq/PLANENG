@@ -79,7 +79,7 @@ HTML, body {
   align:top;
   align-content: top;
   /*justify-content: space-evenly;*/
-  grid-gap:2px;
+  grid-gap:5px;
   grid-template-areas:"h h"
                       "m a" 
                       "f f" 
