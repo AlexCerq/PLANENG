@@ -1,4 +1,4 @@
-:root {
+root {
   --primary-bg: #111;
   --primary-red: #D72638;
   --primary-white: #fff;
@@ -74,9 +74,10 @@ HTML, body {
   width:100vw;
   height:100vh;
   display:grid;
-  grid-template-columns: 2fr 2fr;
-  grid-template-rows: 15vh 70vh 15vh;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 20vh 60vh 20vh;
   align:top;
+  align-content: top;
   /*justify-content: space-evenly;*/
   grid-gap:5px;
   grid-template-areas:"h h"
@@ -92,10 +93,8 @@ header1 {
 main {
  background: blue;
   grid-area: m;
-  align:top;
-
+  height: 100%;
 }
-
 aside {
  background: green;
   grid-area: a; 
