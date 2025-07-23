@@ -1,4 +1,4 @@
-:root {
+root {
   --primary-bg: #111;
   --primary-red: #D72638;
   --primary-white: #fff;
@@ -93,7 +93,7 @@ header1 {
 main {
  background: blue;
   grid-area: m;
-  align: top;
+  height: 100%;
 }
 aside {
  background: green;
