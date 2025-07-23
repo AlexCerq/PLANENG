@@ -75,7 +75,7 @@ HTML, body {
   height:100vh;
   display:grid;
   grid-template-columns: 3fr 1fr;
-  grid-template-rows: 20vh 40vh 40vh;
+  grid-template-rows: 20vh 60vh 20vh;
   align:top;
   align-content: top;
   /*justify-content: space-evenly;*/
