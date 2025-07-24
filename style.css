@@ -179,7 +179,7 @@ main {
 }
 
 /* HERO */
-#hero {
+hero {
   background: var(--primary-bg);
   display: flex;
   align-items: center;
