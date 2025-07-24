@@ -92,14 +92,15 @@ header1 {
 main {
  background: blue;
   grid-area: m;
-  align:center;
-  height: 100%;
+  align:top;
 }
 
 aside {
  background: green;
-  grid-area: a; 
-}footer{
+grid-area: a; 
+}
+
+footer{
  background: red; 
  grid-area: f; 
 }
@@ -138,7 +139,7 @@ header {
 
 .logo-icon {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 .company-name {
@@ -179,7 +180,7 @@ main {
 }
 
 /* HERO */
-hero {
+.hero {
   background: var(--primary-bg);
   display: flex;
   align-items: center;
@@ -210,12 +211,10 @@ hero {
   text-decoration: none;
   transition: background var(--transition), box-shadow var(--transition);
   box-shadow: 0 4px 14px rgba(215,38,56,0.10);
-}/*
 .cta-btn:hover {
   background: #b81a2a;
   box-shadow: 0 6px 24px rgba(215,38,56,0.16);
 }
-*/
 
 /* SOBRE */
 #sobre {
