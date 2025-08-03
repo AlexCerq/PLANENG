@@ -26,7 +26,6 @@ suape {
   margin-left:auto;
 }
 
-
   table {
   width: 90%;
   border-collapse: collapse;
@@ -35,9 +34,7 @@ suape {
   margin-left:auto;
   align-items: top;
   align: top;
-    
-  }
-
+      }
 
 th, td {
   border: 0px;
@@ -46,7 +43,7 @@ th, td {
 }
 
 tr:nth-child(even) {
-  background-color: #pink;
+  background-color: #000000;
 }
 
 /*tr:hover {
