@@ -16,7 +16,7 @@ html {
 }
 div {
    width: 100%;
-
+  background-color:black;
   margin-right: auto;
   margin-left:auto;
 }
@@ -26,6 +26,7 @@ suape {
   margin-left:auto;
 }
 
+
   table {
   width: 90%;
   border-collapse: collapse;
@@ -34,16 +35,22 @@ suape {
   margin-left:auto;
   align-items: top;
   align: top;
-      }
+    
+  }
+
 
 th, td {
-  border: 0px;
+  border: 0px solid #ddd;
   padding: 2px;
   text-align: left;
 }
 
+th {
+  background-color:#f44336;
+   }
+
 tr:nth-child(even) {
-  background-color: #000000;
+  background-color: #0d0d0d;
 }
 
 /*tr:hover {
@@ -67,9 +74,10 @@ HTML, body {
   width:100vw;
   height:100vh;
   display:grid;
-  grid-template-columns: 2fr 2fr;
-  grid-template-rows: 15vh 70vh 15vh;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 20vh 60vh 20vh;
   align:top;
+  align-content: top;
   /*justify-content: space-evenly;*/
   grid-gap:5px;
   grid-template-areas:"h h"
@@ -85,15 +93,12 @@ header1 {
 main {
  background: blue;
   grid-area: m;
-  align:top;
+  height: 100%;
 }
-
 aside {
  background: green;
-grid-area: a; 
-}
-
-footer{
+  grid-area: a; 
+}footer{
  background: red; 
  grid-area: f; 
 }
@@ -132,7 +137,7 @@ header {
 
 .logo-icon {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 .company-name {
@@ -173,7 +178,7 @@ main {
 }
 
 /* HERO */
-.hero {
+#hero {
   background: var(--primary-bg);
   display: flex;
   align-items: center;
@@ -204,10 +209,12 @@ main {
   text-decoration: none;
   transition: background var(--transition), box-shadow var(--transition);
   box-shadow: 0 4px 14px rgba(215,38,56,0.10);
+}/*
 .cta-btn:hover {
   background: #b81a2a;
   box-shadow: 0 6px 24px rgba(215,38,56,0.16);
 }
+*/
 
 /* SOBRE */
 #sobre {
