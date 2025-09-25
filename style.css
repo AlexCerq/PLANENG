@@ -239,16 +239,12 @@ tr:hover td { background: rgba(225, 29, 72, .08); }
 .map-highlight.on{ opacity:1; }
 .timeline-box{ position:relative; display:inline-block; width:100%; } /* já tinha */
 
-
-/* Highlight visual (não recebe clique; só mostra o hover) */
+timeline-box{ position:relative; }
 .map-highlight{
-  position:absolute;
-  pointer-events:none;
-  border:2px solid rgba(255, 208, 0, .95);
-  background:rgba(255, 208, 0, .18);
-  border-radius:12px;
-  box-shadow:0 0 0 1px rgba(0,0,0,.08) inset;
-  opacity:0;
-  transition:opacity .12s ease, transform .08s ease;
+  position:absolute; pointer-events:none; z-index:10;
+  border:2px solid rgba(255,208,0,.95);
+  background:rgba(255,208,0,.18);
+  border-radius:12px; box-shadow:0 0 0 1px rgba(0,0,0,.08) inset;
+  opacity:0; transition:opacity .12s ease, transform .08s ease;
 }
 .map-highlight.on{ opacity:1; }
