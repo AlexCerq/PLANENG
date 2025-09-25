@@ -70,6 +70,64 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     applyCoords();
     hideHighlight();
   }
+
+  // === Timeline: image map responsivo + highlight ===
+(() => {
+  'use strict';
+  const img   = document.getElementById('timelineImg');
+  const map   = document.getElementById('timeline-map');
+  const hi    = document.getElementById('mapHighlight');
+
+  if (!img || !map || !hi) return; // página sem timeline
+
+  const areas = Array.from(map.querySelectorAll('area'));
+
+  function applyCoords(){
+    const w = img.clientWidth;
+    const h = img.clientHeight;
+    if (!w || !h) return;
+
+    areas.forEach(a=>{
+      const p = (a.dataset.rectPercent||'').split(',').map(n=>parseFloat(n.trim()));
+      if (p.length!==4 || p.some(isNaN)) return;
+      const [px,py,pw,ph] = p;
+      const x1 = Math.round((px/100)*w);
+      const y1 = Math.round((py/100)*h);
+      const x2 = Math.round(((px+pw)/100)*w);
+      const y2 = Math.round(((py+ph)/100)*h);
+      a.coords = [x1,y1,x2,y2].join(',');
+    });
+  }
+
+  function showHighlight(a){
+    if (!a.coords) return;
+    const [x1,y1,x2,y2] = a.coords.split(',').map(n=>parseInt(n,10));
+    hi.style.left   = x1 + 'px';
+    hi.style.top    = y1 + 'px';
+    hi.style.width  = (x2 - x1) + 'px';
+    hi.style.height = (y2 - y1) + 'px';
+    hi.classList.add('on');
+  }
+  function hideHighlight(){ hi.classList.remove('on'); }
+
+  // eventos (um vez só)
+  areas.forEach(a=>{
+    a.addEventListener('mouseenter', ()=>showHighlight(a));
+    a.addEventListener('mouseleave', hideHighlight);
+    a.addEventListener('focus',      ()=>showHighlight(a));
+    a.addEventListener('blur',       hideHighlight);
+  });
+
+  function recalcular(){ applyCoords(); hideHighlight(); }
+  window.addEventListener('load', recalcular);
+  window.addEventListener('resize', recalcular);
+  new ResizeObserver(recalcular).observe(document.getElementById('projetos') || document.body);
+})();
+
+  
+  
+  
+  
   window.addEventListener('load', recalcular);
   window.addEventListener('resize', recalcular);
   new ResizeObserver(recalcular).observe(document.body);
