@@ -59,10 +59,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
   // eventos
   areas.forEach(a=>{
-    a.addEventListener('mouseenter', ()=>showHighlight(a));
-    a.addEventListener('mouseleave', hideHighlight);
-    a.addEventListener('focus',      ()=>showHighlight(a));
-    a.addEventListener('blur',       hideHighlight);
+    a.addEventListener('mouseenter',()=>showHighlight(a));
+    a.addEventListener('mouseleave',hideHighlight);
+    a.addEventListener('focus',()=>showHighlight(a));
+    a.addEventListener('blur',hideHighlight);
   });
 
   // recalcula quando necessário
