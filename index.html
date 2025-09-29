@@ -6,6 +6,8 @@
   <meta name="description" content="PLANENG - Transformando metas em resultados. Engenharia de planejamento, gestão de projetos, consultoria e execução para empresas e indústrias.">
   <meta name="keywords" content="planeng, engenharia, planejamento, gestão de projetos, consultoria, obras, produção, orçamentos">
   <title>PLANENG | Transformando metas em resultados</title>
+
+  <!-- Estilos -->
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet">
 </head>
@@ -77,42 +79,50 @@
 
     <!-- Projetos -->
     <section id="projetos">
-  <h2>Projetos & Experiência</h2>
-  <div class="timeline-wrap">
-    <div class="timeline-box">
-      <img
-        id="timelineImg"
-        src="time line 2025.jpg" alt="Linha do tempo profissional de Alex Cerqueira" usemap="#timeline-map">
-      <div id="mapHighlight" class="map-highlight" aria-hidden="true"></div>
+      <h2>Projetos & Experiência</h2>
+      <div class="timeline-wrap">
+        <div class="timeline-box">
+          <!-- Dica: renomeie o arquivo para tirar espaços: timeline-2025.jpg -->
+          <img
+            id="timelineImg"
+            src="time line 2025.jpg"
+            alt="Linha do tempo profissional de Alex Cerqueira"
+            usemap="#timeline-map">
 
-      <map name="timeline-map" id="timeline-map">
-        <!-- ÁREAS SUPERIORES -->
-        <area shape="rect" href="Suape.html" alt="Odebrecht 2011"
-              data-rect-percent="4.5,8.5,20,16.3">
-        <area shape="rect" href="PetroReconcavo.html" alt="PetroReconcavo 2015/16"
-              data-rect-percent="26,7.8,22.5,17">
-        <area shape="rect" href="Braskem-Etano-2017-2018.html" alt="Odebrecht/Braskem 2017/2018"
-              data-rect-percent="49,7.8,21,17">
-        <area shape="rect" href="AlvesDaCunha-2022.html" alt="Alves da Cunha 2022"
-              data-rect-percent="74,7.8,21.5,17">
+          <!-- Highlight (o CSS usa #mapHighlight) -->
+          <span id="mapHighlight" aria-hidden="true"></span>
 
-        <!-- ÁREAS INFERIORES -->
-        <area shape="rect" href="conest.html" alt="RNEST/CONEST – Suape 2014"
-              data-rect-percent="7,79.9,22.5,14.1">
-        <area shape="rect" href="Eneva.html" alt="ENEVA 2016/17"
-              data-rect-percent="36.5,76.4,20,16.3">
-        <area shape="rect" href="Braskem.html" alt="Braskem 2019/22"
-              data-rect-percent="58,73.6,21,18.4">
-        <area shape="rect" href="Norteng.html" alt="Norteng 2023/24"
-              data-rect-percent="80,76.4,15,17">
-      </map>
-    </div>
-  </div>
-</section>
+          <!-- Image map -->
+          <map name="timeline-map" id="timeline-map">
+            <!-- ÁREAS SUPERIORES -->
+            <area shape="rect" href="Suape.html" alt="Odebrecht 2011"
+                  data-rect-percent="4.5,8.5,20,16.3">
+            <area shape="rect" href="PetroReconcavo.html" alt="PetroReconcavo 2015/16"
+                  data-rect-percent="26,7.8,22.5,17">
+            <area shape="rect" href="Braskem-Etano-2017-2018.html" alt="Odebrecht/Braskem 2017/2018"
+                  data-rect-percent="49,7.8,21,17">
+            <area shape="rect" href="AlvesDaCunha-2022.html" alt="Alves da Cunha 2022"
+                  data-rect-percent="74,7.8,21.5,17">
 
-    <a href="conest.html">CONEST </a>
-    <a href="Suape.html">SUAPE </a>
+            <!-- ÁREAS INFERIORES -->
+            <area shape="rect" href="conest.html" alt="RNEST/CONEST – Suape 2014"
+                  data-rect-percent="7,79.9,22.5,14.1">
+            <area shape="rect" href="Eneva.html" alt="ENEVA 2016/17"
+                  data-rect-percent="36.5,76.4,20,16.3">
+            <area shape="rect" href="Braskem.html" alt="Braskem 2019/22"
+                  data-rect-percent="58,73.6,21,18.4">
+            <area shape="rect" href="Norteng.html" alt="Norteng 2023/24"
+                  data-rect-percent="80,76.4,15,17">
+          </map>
+        </div>
+      </div>
+    </section>
 
+    <!-- Links diretos (opcional) -->
+    <a href="conest.html">CONEST</a>
+    <a href="Suape.html">SUAPE</a>
+
+    <!-- Vídeo -->
     <section>
       <h2 align="center">Vídeo do Projeto</h2>
       <div style="text-align:center;">
@@ -130,12 +140,15 @@
         <a href="https://wa.me/5571999517124?text=Olá,%20gostaria%20de%20falar%20com%20a%20PLANENG" target="_blank" class="whatsapp-btn">WhatsApp</a>
         <a href="mailto:contato@planeng.com.br" class="email-btn">E-mail</a>
       </div>
-      <form class="contato-form" action="mailto:PLANENG22@GMAIL .com.br" method="POST" enctype="text/plain">
+
+      <!-- Corrigi o mailto que tinha espaço e domínio estranho -->
+      <form class="contato-form" action="mailto:PLANENG22@gmail.com" method="POST" enctype="text/plain">
         <input type="text" name="nome" placeholder="Seu nome" required />
         <input type="email" name="email" placeholder="Seu e-mail" required />
         <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
         <button type="submit">Enviar</button>
       </form>
+
       <footer>
         <p>&copy; 2025 PLANENG. Todos os direitos reservados. <a href="https://github.com/AlexCerq/PLANENG" target="_blank">GitHub</a></p>
       </footer>
@@ -147,44 +160,7 @@
     <svg viewBox="0 0 32 32" width="36" height="36"><circle fill="#25D366" cx="16" cy="16" r="16"/><path fill="#fff" d="M22.1 18.3c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.1-.4-2.1-1.2-.8-.7-1.3-1.6-1.5-1.9-.2-.3 0-.5.2-.7.2-.2.3-.4.5-.7.2-.2.1-.4 0-.7-.1-.2-.7-1.7-1-2.3-.3-.6-.6-.5-.8-.5s-.4 0-.6 0c-.2 0-.5.1-.7.4-.2.2-.8.8-.8 2s.8 2.3.9 2.5c.1.2 1.7 2.7 4.1 3.7.6.2 1.1.4 1.5.5.6.2 1.1.2 1.5.1.5-.1 1.7-.7 2-1.4.2-.6.2-1.1.1-1.3-.1-.2-.3-.3-.5-.4z"/></svg>
   </a>
 
-  <!-- Script para tornar o image map responsivo (percentual -> px) -->
-  <script>
-    (function () {
-      const img = document.getElementById('timelineImg');
-      const areas = Array.from(document.querySelectorAll('#timeline-map area'));
-
-      function applyCoords() {
-        const natW = Number(img.getAttribute('data-naturalwidth')) || img.naturalWidth;
-        const natH = Number(img.getAttribute('data-naturalheight')) || img.naturalHeight;
-        if (!natW || !natH) return;
-
-        const rect = img.getBoundingClientRect();
-        const w = rect.width;
-        const h = w * (natH / natW); // preserva aspect ratio
-
-        areas.forEach(a => {
-          const [px, py, pw, ph] = (a.dataset.rectPercent || '')
-            .split(',').map(n => parseFloat(n.trim()));
-
-          if ([px, py, pw, ph].some(isNaN)) return;
-
-          const x1 = Math.round((px / 100) * w);
-          const y1 = Math.round((py / 100) * h);
-          const x2 = Math.round(((px + pw) / 100) * w);
-          const y2 = Math.round(((py + ph) / 100) * h);
-
-          a.coords = [x1, y1, x2, y2].join(',');
-        });
-      }
-
-      // Recalcula ao carregar e redimensionar
-      window.addEventListener('load', applyCoords);
-      window.addEventListener('resize', applyCoords);
-      // Observa mudanças do layout (quando a imagem muda de tamanho)
-      new ResizeObserver(applyCoords).observe(document.body);
-    })();
-  </script>
-
-  <script src="script.js"></script>
+  <!-- Scripts -->
+  <script src="timeline.js"></script>
 </body>
 </html>
